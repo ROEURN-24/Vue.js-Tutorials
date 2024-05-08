@@ -1,15 +1,16 @@
 <template>
-    <UserLogin msg="" />
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HomePage msg=""/>
+
 </template>
 
 <script>
-import UserLogin from './components/UserLogin.vue'
+import HomePage from './components/HomePage.vue'
 
 export default {
   name: 'App',
   components: {
-    UserLogin,
-
+    HomePage
   }
 }
 </script>
@@ -22,13 +23,5 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-img{
-  margin: 10px;
-  width: 180px;
-  height: 180px;
-  border-radius: 100%;
-  display: flex;
-  justify-content: start;
 }
 </style>
